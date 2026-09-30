@@ -1,0 +1,6 @@
+# local test artifacts (screenshots, debug pages, browser profile)
+.test/
+
+# wrangler / node
+.wrangler/
+node_modules/
