@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pc-lab-3d",
+  "compatibility_date": "2026-09-02",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "public"
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "comlab-3d.skiddph.com",
+      "custom_domain": true
+    }
+  ]
+}
